@@ -67,8 +67,11 @@ The following literature review outlines the key technologies required for devel
 
 * A major factor is how to handle surge loads. Surge loads occur when large electric motors are started. These large motors can draw  ve times normal operating current for a short period of time. It is usually necessary to use some type of load starting device such as a soft starter or to start the motors sequentially \cite{baldorPS}.
 
-## Peak Shaving Technologies
 
+## Peak Shaving Systems - Modelling Techniques
+As this project is assessing the feasibility of a electrical energy storage system that reduces peak demand for the University, a review was performed to understand research into peak shaving systems. Literature around the subject is quite vast and varied, with products such as as ABB’s energy storage smart grid products, designed to perform load levelling at grid level \cite{abbpeakshave}. However these technologies are largely focused around supply levelling, using forecasting methods and large battery storage systems to offset excess supply \cite{5559470}, where micro level loads are ignored and paybacks periods on EES systems are ignored. Supply levelling technologies on a macro scale for homes can also be found in research, where the use large batteries to reduce power fluctuations brought by the use of renewable technologies. In \cite{Allik20161116}, shiftable water heating was used as a the main storage device in houses, accounting for 50% of household electricity use. Excess load from wind turbines can be used to heat water in these periods bypassing an inverter making a more efficient use of the external energy. \cite{7564619}
+
+## Peak Shaving Technologies
 
 ### Electrical Energy Storage (EES) System
 
@@ -98,7 +101,3 @@ By removing energy storage methods that would not be appropriate for the system,
     * Thresholds are adjusted accordingly
     * Both active and passive work , but peak reduction is much more consistent for active
     * Where the real-time active control strategy achieved percentage reduction of up to 8.64%, with accuracy of 70.52% or percentage difference of 29.48% away from the ideal reduction and has percentage performance of 77.08% in achieving the peak demand reduction.
-
-## Peak Shaving Systems - Modelling Techniques
-
-* \cite{Leadbetter2012685} This reference looks at using using a generic battery technology with an investor and controller
