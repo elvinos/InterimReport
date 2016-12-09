@@ -1,8 +1,15 @@
 # Aims and Objectives
 
-Give a background to what the project is - done as a group
+The announcement of the new £300million University of Bristol Campus in Temple Quarter \cite{November58:online}, presents an exciting new opportunity for development of digital innovations in sustainable energy. The government's 2020 smart meter rollout, is the first step for creating a smart energy grid, key to achieving a low-carbon, efficient energy for the UK \cite{SmartEne79:online}. The UK's vision is inline with the University of Bristol's new strategy, seeking to boost it's world-class research capacity and promote policy innovation in sustainability \cite{universi93:online}. Create a world leading sustainable digital campus, holds as an attractive means for the University to achieve it's vision. Consequently, aim of the group project is to bring a host of new digital technologies reducing both energy costs and energy usage, uniting these themes, to radically increase the new campus's sustainability.
 
-\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{groupDia}
+\caption{Group Design Project Diagram Showing Relationships Between Individual Projects}
+\label{groupDia}
+\end{figure}
+
+Figure \ref{groupDia} shows how the separate themes of the project are split, where research in Occupancy Sensing, Smart Metering and Building Services will evaluate how energy usage in the new campus can be optimised. District Heating, Energy Pricing and Peak Demand Reduction, all analyse methods of reducing energy costs for the University. Where new energy pricing structures coupled with peak demand reduction technologies, can reduce the load on the grid, helping support sustainable energies. When these separate streams are brought together in 5^th^^ year, a smart "brain" will be created, combining usage data with reduction in energy costs to provide sustainable energy services to the campus in that will push the University to meet it's carbon neutral 2030 goal \cite{universi93:online}.
 
 ## Individual Project Aim
 
@@ -12,12 +19,12 @@ The aim of this individual project is to investigate the feasibility of a batter
 
 **Literature Review**
 \begin{enumerate}
+\item Research different peak shaving systems available on the market and similar systems designs in literature, highlighting relevant modelling techniques and limitations.
 \item Perform a detailed literature review to investigate applicable peak shaving technologies based on similar use cases and performance. Research will include:
     \begin{itemize}
  \item a down-selection of different energy storage solutions, looking at their applicability to a University peak shaving system, comparing parameters such as; power-ratings , discharge times, charge times and costs.
 \item investigating different prediction methods for peak demand surges, identifying limitations in current technology.
     \end{itemize}
-\item Conduct research of different peak shaving systems, highlighting relevant modelling techniques and limitations.
 \end{enumerate}
 
 **Definition of System Architectures**
@@ -45,7 +52,7 @@ The aim of this individual project is to investigate the feasibility of a batter
 \newpage
 # Summary of Key Work and References
 
-The following literature review outlines the key technologies required for developing a optimised peak shaving system and conducting research intended to justify and develop on the project objectives. Section \ref{peak-demand-charges-and-loads} looks at pricing structures, defining the problem which the system has to solve; highlighting the limitations in current commercially available technology.  Section \ref{peak-shaving-technologies} explores the technologies that can be used to define the system architecture. Finally, section \ref{peak-shaving-systems---modelling-techniques} evaluates current research of energy storage peak shaving systems, providing a reference for shortlisting different system architectures.
+The following literature review outlines the key technologies required for developing a optimised peak shaving system and conducting research intended to justify and develop on the project objectives. Section \ref{peak-demand-charges-and-loads} looks at pricing structures, defining the problem which the system has to solve; highlighting the limitations in current commercially available technology.  Section \ref{peak-shaving-technologies} explores the technologies that can be used to define the system architecture. Finally, section \ref{peak-shaving-systems} evaluates current research of energy storage peak shaving systems, providing a reference for shortlisting different system architectures.
 
 ## Peak Demand Charges and Loads
 
@@ -57,7 +64,6 @@ The following literature review outlines the key technologies required for devel
 * After generation costs these are generally the second largest cost per kWh on an energy bill
 
 ### Current Peak Demand Management Techniques
-
 * To reduce peak demand, you will want to do electrical load planning and management. What this means, simply, is scheduling the use of electrical equipment to get the work done at the lowest possible electric load at any one time \cite{Reducing37:online}
 * Key two main methods:
     * Reducing usage through load shedding- understands which parts of the system can be switched off during periods of peak demand  - these can be intelligent \cite{6199851}
@@ -67,16 +73,25 @@ The following literature review outlines the key technologies required for devel
 * A major factor is how to handle surge loads. Surge loads occur when large electric motors are started. These large motors can draw  ve times normal operating current for a short period of time. It is usually necessary to use some type of load starting device such as a soft starter or to start the motors sequentially \cite{baldorPS}.
 
 ## Peak Shaving Systems
-As this project is assessing the feasibility of a electrical energy storage system that reduce peak demand for the University, a review was performed to understand research into peak shaving systems. There are a few commercial products which are assessed first to give guidance on the architecture of a peak shaving system. A  literature review is then given to understand research around the subject.
+As this project is assessing the feasibility of a electrical energy storage system that reduce peak demand for the University, a review was performed to understand research into peak shaving systems. There are a few commercial products which were assessed first to give guidance on the architecture of a peak shaving system. A literature review is then given to understand research around the subject.
 
 ### Market Survey
-Before reviewing literature, it is worth noting that there are a few peak reduction energy storage products available commercially. ABB offers energy-storage, smart-grid products, perform load levelling at grid level \cite{abbpeakshave}. These are designed to focus on supply levelling, using forecasting methods and large electrical storage systems to offset excess supply \cite{5559470} produced from renewable energy sources. ABB’s solution however, does not look at depth into reducing actual energy costs for the customer, described in section \ref{peak-demand-charges-and-loads}. One Cycle Control have created technologies to regulate peak-load and mitigate peak demand charges for commercial industrial facilities using Li-ion batteries\cite{peakload38:online}. The technology proved an effective system at reducing peak demand charges, but the technologies financial feasibility is limited by the cost of the storage systems evaluated \cite{Demonstr51:online}. From the market survey it is clear that the ESS is the most important factor in terms of the systems cost, whilst being able to sense peak loads and respond actively will maximise the performance of the system. Hence section \ref{peak-shaving-technologies} will evaluate these different technologies.
-
+ABB offers energy-storage, smart-grid products, perform load levelling at grid level \cite{abbpeakshave}. These systems are designed primarily for supply levelling, using forecasting methods and large electrical storage systems to offset excess supply produced from renewable energy sources \cite{5559470}. ABB’s products however, do not look at depth into reducing actual energy costs for the customer, described in section \ref{peak-demand-charges-and-loads}. One Cycle Control have created technologies to regulate peak-load and mitigate peak demand charges for commercial industrial facilities using Li-ion batteries\cite{peakload38:online}. The technology proved an effective system at reducing peak demand charges, but it's financial feasibility is limited by the cost of the storage systems \cite{Demonstr51:online}. It is clear that the ESS is the most important factor in terms of the systems cost, whilst being able to sense peak loads and respond actively will maximise the performance of the system. Section \ref{peak-shaving-technologies} will evaluate these two different technologies.
 
 ###  Peak Shaving Systems Literature Review
-A literature review has therefore  a business case around the battery type and size required to make appropriate savings, defining micro level loads on a building or even room and the effect EES’s can have at this level. Supply levelling technologies on a macro scale for homes can also be found in research, where the use large batteries to reduce power fluctuations brought by the use of renewable technologies. In \cite{Allik20161116}, shiftable water heating was used as a the main storage device in houses, accounting for 50% of household electricity use. Excess load from wind turbines can be used to heat water in these periods bypassing an inverter making a more efficient use of the external energy. \cite{7564619}
+Understanding the limitations in current market technology, literature review was performed looking at different research around the battery type and size required to make appropriate savings, defining micro level loads on a building or even room and the effect EES’s can have at this level.
 
-### Modelling Techniques
+#### Forecasting
+By understanding when energy prices will be greater and when loads are typically larger, a ESS can be switched on during these periods to reduce demand from the gird. Energy costs can be shifted purchasing at a cheaper rate and using this during peak times. This method, reduces peak demand through reducing the total energy demand from the grid. Looking at the gap in energy prices, demand charges and investment costs for a BESS system, for NaS, Li-ion and Flow batteries, a basic on/off algorithm to shift energy purchasing from peak to off peak times does not produce a viable return on investment (ROI) \cite{7555795}.  \cite{7555793} highlighted that billing peak periods, were directly correlated meaning that the largest demand was required at the most expensive periods, requiring large ESS to offset this demand. \cite{5590194} used real hourly spot prices to decide the best periods to turn on and off VRB and PSB batteries. Through sequential quadratic programming (SQP), the battery sizes could be optimised to finding PSB batteries have a better business case for load shifting. The key differences between \cite{5590194} and \cite{7555795}, were the reduction in the size of the problem and the granularity of the pricing data used. \cite{shen2016} and \cite{6461115} both look at different modelling techniques to simulate load shifting with EES. Using an agent-based simulation \cite{6461115}, the diversity in load consumptions patterns allowed peak demand to be reduced if all energy use is dynamic.  \cite{shen2016} look at how the peak rebate scheme may lower ROI for ESS’s. \cite{6938948} evaluated different control strategies combing multiple forecasts to reduce errors in peak shaving over a monthly period. It was found that using weighted and lowest error forecasts were the best strategies for an energy management system. \cite{Bennett2015122} added a real time operator to create and intelligent scheduling system based on a house. This system greatly improved the state of charge of the battery, allowing more energy available to reduce peaks. The research highlights that forecasts combined with real time information can increase the performance of the system further.
+
+#### Supply Levelling
+Supply levelling has been the most common use for ESS \cite{iearoadmapes}, using large batteries to reduce power fluctuations brought by the use of renewable technologies. Supply levelling works by storing excess supply, reducing peaks in supply rather than in demand. Peak sensing technology is therefore similar to peak shaving. \cite{Allik20161116}, looked at improving supply on the micro (house) scale. Shiftable water heating was used as a the main storage device in houses, accounting for 50% of household electricity use. Excess load from wind turbines can be used to heat water in these periods bypassing an inverter making a more efficient use of the external energy. Minimising conversion through invertors, makes a large difference in the efficiency of the system.
+
+#### Battery Sizing and Financial Modelling
+There have been numerous studies conducted looking into the business case for ESS technologies for industrial/ commercial and household level consumption. Models such as \cite{7555795} and \cite{7555793} look very broadly at a reduction in cost across all energy charges. Papers including \cite{1300158} and \cite{6175723} evaluated a financial models for particular case studies. Applying bespoke solution helped to maximise the peak demand reduction greater than what is promised by current generic products \cite{abbpeakshave}. This enables a strong argument that a bespoke solution for the University would have improved performance over a generic system and a much shorter ROI. Further research has indicated could be benefits for decentralised system, reducing peaks on a small scale rather than using one large central ESS.  \cite{6604477} looked at both minimising peak demand, whilst maximising the lifetime on the battery for a large data centre. Although although based in one location, the ability to forecast when a machine will spike in power usage, follows a similar to people within a building.  Through both experimentation and modelling, it was revealed that when the batteries lifespan is taking into account, being able to regulate load through a series of batteries attached to their own systems can be more favourable than a decentralised system. This idea is supported by \cite{Demonstr51:online}, where a simulation was ran of the impact of lithium-ion batteries operated under a peak-shaving control algorithm to identify cost-optimal battery configurations and their impact on metered load. \cite{Demonstr51:online} showed that small short duration batteries were much more favourable and cost effective for the customer. The model for this project will assess if this is also the case for a University facility based on it’s usage supported by evidence such as  "40% of energy use in the campus comes from 5% of the space, predominantly labs” \cite{brentemail} .
+
+Finally \cite{20160601898032}, \cite{Levron201280} all \cite{5371839} all show alternate ways of optimising the battery sizing configuration.\cite{5371839}, using an alternate non numeric modelling method, focusing on ultra capacitors finding the optimal energy storage of fueled systems. The results emphasise the constraint of storage capacity, showing limited value gained after a specific size. This supports evidence that an optimum ESS type and size can be found for a particular use case. \cite{Levron201280} created an analytical modelling, leveraging intuitive energy band to regulate the peak load giving an optimum storage size for a given system. \cite{20160601898032} looks specifically at Vanadium Redox Flow Batteries (VRFB) arguing it’s benefits over other ESS methods. A  MATLAB/Simulink was made for a residential use case, showing that can regulate frequency effectively due to its fast response time, while still performing peak-shaving services. A more specified constrained approach to one that is proposed for this project.
+
 
 ## Peak Shaving Technologies
 
@@ -97,6 +112,7 @@ Due to the inherent properties of mechanical and These technologies into differe
 By removing energy storage methods that would not be appropriate for the system, a table was created to compare the differing technologies. Due to only batteries and capacitors providing the response time and efficiencies required to make the system justifiable, only rechargeable batteries were compared. It is apparent from the literature review that the model of a University peak demand reduction system will need to compare different battery parameters along with their cost, in order to optimise the model.
 
 ### Peak Demand Sensing
+
 * Two systems, fixed scheduled and anticipated \cite{20164002874437} - good citation for university modelling
 * Online framework will continuously monitor the real-time demand reduction whilst actively perform peak demand reduction
     * Required supply  from battery for the next interval is defined, in which to reduce the mean absolute percentage error (MAPE) it is computed by bringing the scheduled profile towards the forecasted supply, by an approximate factor
@@ -107,3 +123,122 @@ By removing energy storage methods that would not be appropriate for the system,
     * Thresholds are adjusted accordingly
     * Both active and passive work , but peak reduction is much more consistent for active
     * Where the real-time active control strategy achieved percentage reduction of up to 8.64%, with accuracy of 70.52% or percentage difference of 29.48% away from the ideal reduction and has percentage performance of 77.08% in achieving the peak demand reduction.
+
+\newpage
+# Project Work-plan
+
+This section describes the breakdown of the different work packages required to complete the aims and objectives set out in section \ref{aims-and-objectives}.
+
+#### Work Package 1: Literature Review (Objectives 1 and 2)
+
+\begin{enumerate}[ label={1.\arabic*}]
+\item Understand the University's energy pricing structure, defining the problem the peak shaving system will solve.
+\item Perform a market survey of peak shaving systems available commercially and review literature of relevant research around peak shaving systems.
+\item Evaluate different energy storage systems, looking at metrics including; power-ratings , discharge times, charge times and costs. Producing a shortlist of relevant ESS's to be modelled .\\ \textit{Output:} Table defining EES parameters shortlisted.
+\item Evaluate prediction methods for peak demand surges, understanding limitations in current technology providing parameters to be modelled.
+\end{enumerate}
+
+#### Work Package 2: Definition of System Architectures (Objective 3)
+
+\begin{enumerate}[ label={2.\arabic*}]
+\item Investigation and of different peak demand sensing methods
+\item Investigation of smart metering technologies
+\item Investigation of energy conversion technologies and further methods of splitting supply between energy storage devices and the grid
+\item Investigate storage health monitoring and it's effects on a peak shaving system
+\item Investigation of different ESS locations to be modelled, comparing decentralised and centralised formats
+\item Quantitive assessment of key parameters of different peak shaving technologies, down-selecting most feasible options to be modelled
+\item Establish a set of system architectures to be modelled.
+\end{enumerate}
+
+#### Work Package 3: Analysis University Peak Demand Charges (Objective 4)
+
+\begin{enumerate}[ label={3.\arabic*}]
+\item Collect data on the University's energy usage
+\item Collect data on University energy charges relevant to peak demand
+\item Analyse data, identifying any key trends such as time of day peaks, or locations peak usage comparing to costs.
+\item Investigate best practices to create representative model of the University's energy data.
+\end{enumerate}
+
+#### Work Package 4: Simulation of System Architectures (Objective 5)
+
+\begin{enumerate}[ label={4.\arabic*}]
+\item Create a simulation of the University's a normal energy use case and peak demand charges, showing a accurate profile of how the University is charged
+\item Add of energy storage systems, simulating logic and detailing any prediction methods taken from WP2.
+\item Add further technologies such as peak load shedding to understand if peak demand can be further reduced cost effectively.
+\item Run model for different locations in the campus quantitively comparing the difference between a decentralised and centralised systems
+\end{enumerate}
+
+#### Work Package 5: Evaluation of Simulation (Objective 6 and 7)
+
+\begin{enumerate}[ label={5.\arabic*}]
+\item Evaluate other areas where the system can provide further benefit to the University campus, including micro-grids and PV's.
+\item Evaluate results of the simulation, concluding on the effectiveness of different peak shaving system architectures.
+\end{enumerate}
+
+#### Work Package 6: Conclusions and Further Work
+
+\begin{enumerate}[label={6.\arabic*}]
+\item Identify all findings from work packages, condensing findings to provide recommendations and identify areas for future work
+\item Identify transition points for the projects integration into the $5^th$ year group project.
+\item Final report write up
+\item Group project poster creation
+\end{enumerate}
+
+A Gantt Chart for the project has been included below.
+
+\newpage
+
+\begin{landscape}
+
+\begin{figure}[H]
+\centering
+\includegraphics[height=0.92\textwidth]{GanttChartDP.pdf}
+\caption{Gantt Chart, Detailing Project Timeline}
+\label{GanttChart}
+\end{figure}
+
+\end{landscape}
+
+\newpage
+
+
+# Project Resources
+
+The following section highlights the resources required to complete this individual project.
+
+* **MATLAB and Simulink software** - This will be used to create the simulation of the peak shaving system
+    * Available under the University student license, already installed
+    * Modelling support, including additional training sessions from Mike McCann (A University of Bristol modelling specialist) in order to fully use the software
+* **MS Excel** - This will be used for tabulating data, down-selecting selecting energy storage systems and developing cost- benefit analysis models
+* **University Energy Usage Data** - To be obtained from the University estates department, John Brenton and Chris Jones
+* **University Energy Charges Data** - To be obtained from the University estates department, John Brenton and Chris Jones
+* **Arup Support and Expertise** - Guidance from in-house experts to maximise quality of research in WP2. This can be obtained through contacting Peter Cooper (Project Industrial Sponsor).
+
+# Project Risks
+
+This sections highlights the key project risks that this individual project may encounter. Included with the risks are mitigations strategies, chosen to reduce the consequences if these risk's occur, see table \ref{risktab}. Risks are measured using the IPTQ method, explained below:
+
+* \textbf{P}: Probability of occurrence, \textit{1=low, 2=medium, 3 = high}
+* \textbf{T}: Time delay caused by risk, \textit{1=low, 2=medium, 3 = high}
+* \textbf{Q}: Negative effect on quality of work, \textit{1=low, 2=medium, 3 = high}
+* \textbf{I}: Impact of risk, $I=P\times$ $(T+Q)$
+
+The quality of the mitigation is measured by the percentage reduction in the risk's impact:
+
+\begin{eqnarray}
+ \%Reduc =\frac{\text{Impact pre-mitigation}-\text{Impact post-mitigation}}{\text{Impact pre-mitigation}}   \nonumber
+\end{eqnarray}
+
+
+\newpage
+
+\begin{landscape}
+
+\begin{table}[H]
+\centering
+\caption{Table Showing the Project Risks and Mitigations}
+\includegraphics[height=0.8\textwidth]{risktab.eps}
+\label{risktab}
+\end{table}
+
+\end{landscape}

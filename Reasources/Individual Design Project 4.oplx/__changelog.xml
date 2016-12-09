@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Alex Charles" date="2016-12-09T11:43:02.653Z" timestamp="2016-12-09T11:43:02.653Z">
+    <change idref="t2" to="t-1" to-position="1" resolved="yes">
+      <change idref="t2" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2" attribute="title" type="string" to="Work Package 2"/>
+    </change>
+    <change idref="t3" to="t-1" to-position="2" resolved="yes">
+      <change idref="t3" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t3" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t3" attribute="title" type="string" to="Work Package 3"/>
+    </change>
+    <change idref="t4" to="t-1" to-position="3" resolved="yes">
+      <change idref="t4" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4" attribute="title" type="string" to="Work Package 4"/>
+    </change>
+    <change idref="t5" to="t-1" to-position="4" resolved="yes">
+      <change idref="t5" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t5" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t5" attribute="title" type="string" to="Work Package 5"/>
+    </change>
+    <change idref="t6" to="t-1" to-position="5" resolved="yes">
+      <change idref="t6" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t6" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t6" attribute="title" type="string" to="Work Package 6"/>
+    </change>
+    <change idref="t7" to="t-1" to-position="6" resolved="yes">
+      <change idref="t7" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t7" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t7" attribute="title" type="string" to="Milestones"/>
+    </change>
+    <change idref="t8" to="t-1" to-position="7" resolved="yes">
+      <change idref="t8" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t8" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t8" attribute="title" type="string" to="Holidays and Exams"/>
+    </change>
+    <change idref="t1" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t1" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t1" attribute="title" type="string" from="Task 1" to="Work Package 1" resolved="yes"/>
+    <change idref="t1" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t1" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t1" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t22" to="t1" to-position="0" resolved="yes">
+      <change idref="t22" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t22" attribute="endLockedDate" type="date" to="2016-12-12T17:00:00.000Z"/>
+      <change idref="t22" attribute="title" type="string" to="Literature Review and Interim Report Write up"/>
+    </change>
+    <change idref="t12" to="t7" to-position="0" resolved="yes">
+      <change idref="t12" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t12" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-12T17:00:00.000Z"/>
+      <change idref="t12" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t12" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t12" attribute="title" type="string" to="Interim Report Deadline"/>
+    </change>
+    <change idref="t18" to="t7" to-position="1" resolved="yes">
+      <change idref="t18" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t18" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t18" attribute="noEarlierThanConstraintDate" type="date" to="2017-03-10T08:00:00.000Z"/>
+      <change idref="t18" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t18" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t18" attribute="title" type="string" to="Final Report Draft Submission"/>
+    </change>
+    <change idref="t15" to="t7" to-position="2" resolved="yes">
+      <change idref="t15" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t15" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t15" attribute="noEarlierThanConstraintDate" type="date" to="2017-03-20T08:00:00.000Z"/>
+      <change idref="t15" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t15" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t15" attribute="title" type="string" to="Project Poster Deadline"/>
+    </change>
+    <change idref="t16" to="t7" to-position="3" resolved="yes">
+      <change idref="t16" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t16" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t16" attribute="noEarlierThanConstraintDate" type="date" to="2017-03-31T07:00:00.000Z"/>
+      <change idref="t16" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t16" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t16" attribute="title" type="string" to="Project Report Deadline"/>
+    </change>
+    <change idref="t17" to="t7" to-position="4" resolved="yes">
+      <change idref="t17" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t17" attribute="noEarlierThanConstraintDate" type="date" to="2017-05-08T07:00:00.000Z"/>
+      <change idref="t17" attribute="title" type="string" to="Viva Voce Examination"/>
+    </change>
+    <change idref="t20" to="t8" to-position="0" resolved="yes">
+      <change idref="t20" attribute="effort" type="real" from="28800" to="720000"/>
+      <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-19T08:00:00.000Z"/>
+      <change idref="t20" attribute="title" type="string" to="Christmas Vacation and January Assessment"/>
+    </change>
+    <change idref="t19" to="t8" to-position="1" resolved="yes">
+      <change idref="t19" attribute="effort" type="real" from="28800" to="432000"/>
+      <change idref="t19" attribute="noEarlierThanConstraintDate" type="date" to="2017-04-03T07:00:00.000Z"/>
+      <change idref="t19" attribute="title" type="string" to="Easter Vacation"/>
+    </change>
+    <change idref="t21" to="t8" to-position="2" resolved="yes">
+      <change idref="t21" attribute="effort" type="real" from="28800" to="432000"/>
+      <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" to="2017-05-15T07:00:00.000Z"/>
+      <change idref="t21" attribute="title" type="string" to="Summer Assessments"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Alex Charles" date="2016-12-09T12:43:56.572Z" timestamp="2016-12-09T12:43:56.572Z">
+    <change idref="t1" attribute="title" type="string" from="Work Package 1" to="Work Package 1 -Literature Review " resolved="yes"/>
+    <change idref="t1" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 6;
+}" resolved="yes"/>
+    <change idref="t2" attribute="title" type="string" from="Work Package 2" to="Work Package 2- Definition of System Architectures " resolved="yes"/>
+    <change idref="t2" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = &quot;0.25098&quot;;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 6;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = &quot;0.25098&quot;;
+    };
+}" resolved="yes"/>
+    <change idref="t2" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-20T08:30:00.000Z" resolved="yes"/>
+    <change idref="t28" to="t2" to-position="0" resolved="yes">
+      <change idref="t28" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t28" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.999&quot;;
+        g = &quot;0.400599&quot;;
+        r = &quot;0.696209&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t28" attribute="title" type="string" to="Investigation of different peak demand sensing tehcnologies"/>
+    </change>
+    <change idref="t29" to="t2" to-position="1" resolved="yes">
+      <change idref="t29" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t29" attribute="internalPrerequisitesString" type="string" to="28FS"/>
+      <change idref="t29" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.999&quot;;
+        g = &quot;0.400599&quot;;
+        r = &quot;0.696209&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t29" attribute="title" type="string" to="Investigation of smart-metering technologies"/>
+    </change>
+    <change idref="t30" to="t2" to-position="2" resolved="yes">
+      <change idref="t30" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t30" attribute="internalPrerequisitesString" type="string" to="29FS"/>
+      <change idref="t30" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.999&quot;;
+        g = &quot;0.400599&quot;;
+        r = &quot;0.696209&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t30" attribute="title" type="string" to="Investigation of energy conversion "/>
+    </change>
+    <change idref="t31" to="t2" to-position="3" resolved="yes">
+      <change idref="t31" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t31" attribute="internalPrerequisitesString" type="string" to="30FS"/>
+      <change idref="t31" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.999&quot;;
+        g = &quot;0.400599&quot;;
+        r = &quot;0.696209&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t31" attribute="title" type="string" to="Investigation of storage health monitoring "/>
+    </change>
+    <change idref="t32" to="t2" to-position="4" resolved="yes">
+      <change idref="t32" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t32" attribute="internalPrerequisitesString" type="string" to="31FS"/>
+      <change idref="t32" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.999&quot;;
+        g = &quot;0.400599&quot;;
+        r = &quot;0.696209&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t32" attribute="title" type="string" to="Investigation of different ESS location "/>
+    </change>
+    <change idref="t33" to="t2" to-position="5" resolved="yes">
+      <change idref="t33" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t33" attribute="internalPrerequisitesString" type="string" to="32FS"/>
+      <change idref="t33" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.999&quot;;
+        g = &quot;0.400599&quot;;
+        r = &quot;0.696209&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t33" attribute="title" type="string" to="Quantitative assessment of system"/>
+    </change>
+    <change idref="t34" to="t2" to-position="6" resolved="yes">
+      <change idref="t34" attribute="internalPrerequisitesString" type="string" to="33FS"/>
+      <change idref="t34" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.999&quot;;
+        g = &quot;0.400599&quot;;
+        r = &quot;0.696209&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t34" attribute="title" type="string" to="System Architectures established"/>
+    </change>
+    <change idref="t3" attribute="title" type="string" from="Work Package 3" to="Work Package 3 - Analysis University Peak Demand Charges " resolved="yes"/>
+    <change idref="t3" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.25098&quot;;
+        g = &quot;0.501961&quot;;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 6;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.25098&quot;;
+        g = &quot;0.501961&quot;;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" to="2017-02-01T12:00:00.000Z" resolved="yes"/>
+    <change idref="t35" to="t3" to-position="0" resurrection="yes" resolved="yes">
+      <change idref="t35" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t35" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t35" attribute="title" type="string" to="Collect data on University energy usage"/>
+    </change>
+    <change idref="t38" to="t3" to-position="1" resolved="yes">
+      <change idref="t38" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t38" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t38" attribute="title" type="string" to="Collect data on University energy charges"/>
+    </change>
+    <change idref="t36" to="t3" to-position="2" resolved="yes">
+      <change idref="t36" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t36" attribute="internalPrerequisitesString" type="string" to="35FS, 38FS"/>
+      <change idref="t36" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t36" attribute="title" type="string" to="Analyse energy data"/>
+    </change>
+    <change idref="t37" to="t3" to-position="3" resolved="yes">
+      <change idref="t37" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t37" attribute="internalPrerequisitesString" type="string" to="36FS"/>
+      <change idref="t37" attribute="startLockedDate" type="date" to="2017-02-07T13:00:00.000Z"/>
+      <change idref="t37" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t37" attribute="title" type="string" to="Investigate best practices to create model"/>
+    </change>
+    <change idref="t4" attribute="title" type="string" from="Work Package 4" to="Work Package 4 - Simulation of System Architectures " resolved="yes"/>
+    <change idref="t4" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.25098&quot;;
+        g = 0;
+        r = &quot;0.501961&quot;;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 6;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.25098&quot;;
+        g = 0;
+        r = &quot;0.501961&quot;;
+    };
+}" resolved="yes"/>
+    <change idref="t4" attribute="internalPrerequisitesString" type="string" to="37FS" resolved="yes"/>
+    <change idref="t39" to="t4" to-position="0" resolved="yes">
+      <change idref="t39" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t39" attribute="internalPrerequisitesString" type="string" to="37FS"/>
+      <change idref="t39" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.456105&quot;;
+        g = &quot;0.126435&quot;;
+        r = &quot;0.824256&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t39" attribute="title" type="string" to="Create simulation of the University’s Energy Usage and Costs"/>
+    </change>
+    <change idref="t40" to="t4" to-position="1" resolved="yes">
+      <change idref="t40" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t40" attribute="endLockedDate" type="date" to="2017-02-21T18:00:00.000Z"/>
+      <change idref="t40" attribute="internalPrerequisitesString" type="string" to="34FS, 39FS"/>
+      <change idref="t40" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.456105&quot;;
+        g = &quot;0.126435&quot;;
+        r = &quot;0.824256&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t40" attribute="title" type="string" to="Model ESS "/>
+    </change>
+    <change idref="t41" to="t4" to-position="2" resolved="yes">
+      <change idref="t41" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t41" attribute="internalPrerequisitesString" type="string" to="40FS"/>
+      <change idref="t41" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.456105&quot;;
+        g = &quot;0.126435&quot;;
+        r = &quot;0.824256&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t41" attribute="title" type="string" to="Addition of new technologies to improve model"/>
+    </change>
+    <change idref="t42" to="t4" to-position="3" resolved="yes">
+      <change idref="t42" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t42" attribute="internalPrerequisitesString" type="string" to="41FS"/>
+      <change idref="t42" attribute="startLockedDate" type="date" to="2017-02-27T18:00:00.000Z"/>
+      <change idref="t42" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.456105&quot;;
+        g = &quot;0.126435&quot;;
+        r = &quot;0.824256&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t42" attribute="title" type="string" to="Simulate model for different loactions"/>
+    </change>
+    <change idref="t5" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = &quot;0.501961&quot;;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 6;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = &quot;0.501961&quot;;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t5" attribute="internalPrerequisitesString" type="string" to="42FS" resolved="yes"/>
+    <change idref="t43" to="t5" to-position="0" resolved="yes">
+      <change idref="t43" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t43" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.896&quot;;
+        g = &quot;0.831875&quot;;
+        r = &quot;0.450688&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t43" attribute="title" type="string" to="Evaluation of further areas of improvement"/>
+    </change>
+    <change idref="t44" to="t5" to-position="1" resolved="yes">
+      <change idref="t44" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t44" attribute="internalPrerequisitesString" type="string" to="43FS"/>
+      <change idref="t44" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.896&quot;;
+        g = &quot;0.831875&quot;;
+        r = &quot;0.450688&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t44" attribute="title" type="string" to="Evaluation of simulation results"/>
+    </change>
+    <change idref="t6" attribute="title" type="string" from="Work Package 6" to="Work Package 6 - Conclusions and Further Work" resolved="yes"/>
+    <change idref="t6" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.25098&quot;;
+        r = &quot;0.501961&quot;;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 6;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.676169&quot;;
+        g = &quot;0.341736&quot;;
+        r = &quot;0.192139&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t45" to="t6" to-position="0" resolved="yes">
+      <change idref="t45" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t45" attribute="internalPrerequisitesString" type="string" to="44FS"/>
+      <change idref="t45" attribute="startLockedDate" type="date" to="2017-03-08T11:00:00.000Z"/>
+      <change idref="t45" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+}"/>
+      <change idref="t45" attribute="title" type="string" to="Identify all findings from work packages"/>
+    </change>
+    <change idref="t46" to="t6" to-position="1" resolved="yes">
+      <change idref="t46" attribute="internalPrerequisitesString" type="string" to="45FS"/>
+      <change idref="t46" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+}"/>
+      <change idref="t46" attribute="title" type="string" to="Identify transition points for 5th year"/>
+    </change>
+    <change idref="t47" to="t6" to-position="2" resolved="yes">
+      <change idref="t47" attribute="effort" type="real" from="28800" to="900000"/>
+      <change idref="t47" attribute="endLockedDate" type="date" to="2017-03-30T18:30:00.000Z"/>
+      <change idref="t47" attribute="internalPrerequisitesString" type="string" to="16FF"/>
+      <change idref="t47" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+}"/>
+      <change idref="t47" attribute="title" type="string" to="Final Report Write Up "/>
+    </change>
+    <change idref="t48" to="t6" to-position="3" resolved="yes">
+      <change idref="t48" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t48" attribute="internalPrerequisitesString" type="string" to="15FF, 46FS"/>
+      <change idref="t48" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+}"/>
+      <change idref="t48" attribute="title" type="string" to="Group Project Poster Creation"/>
+    </change>
+    <change idref="t7" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.0386126&quot;;
+        g = &quot;0.0189087&quot;;
+        r = &quot;0.828819&quot;;
+        space = srgb;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 6;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.0386126&quot;;
+        g = &quot;0.0189087&quot;;
+        r = &quot;0.828819&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t8" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.4&quot;;
+        g = &quot;0.8&quot;;
+        r = 1;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 6;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.4&quot;;
+        g = &quot;0.8&quot;;
+        r = 1;
+    };
+}" resolved="yes"/>
+    <change idref="t21" from="t8" from-position="2" resolved="yes">
+      <change idref="t21" attribute="effort" type="real" from="28800" to="432000"/>
+      <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" to="2017-05-15T07:00:00.000Z"/>
+      <change idref="t21" attribute="title" type="string" to="Summer Assessments"/>
+    </change>
+    <change idref="t12" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.4&quot;;
+        g = &quot;0.4&quot;;
+        r = 1;
+    };
+}" resolved="yes"/>
+    <change idref="t15" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.4&quot;;
+        g = &quot;0.4&quot;;
+        r = 1;
+    };
+}" resolved="yes"/>
+    <change idref="t16" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.4&quot;;
+        g = &quot;0.4&quot;;
+        r = 1;
+    };
+}" resolved="yes"/>
+    <change idref="t17" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t17" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t17" attribute="effort" type="real" from="115200" to="0" resolved="yes"/>
+    <change idref="t17" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t17" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.4&quot;;
+        g = &quot;0.4&quot;;
+        r = 1;
+    };
+}" resolved="yes"/>
+    <change idref="t18" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.4&quot;;
+        g = &quot;0.4&quot;;
+        r = 1;
+    };
+}" resolved="yes"/>
+    <change idref="t19" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = 0;
+        g = 1;
+        r = 1;
+    };
+}" resolved="yes"/>
+    <change idref="t20" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = 0;
+        g = 1;
+        r = 1;
+    };
+}" resolved="yes"/>
+    <change idref="t22" attribute="title" type="string" from="Literature Review and Interim Report Write up" to="1.2 &amp; 1.3 Literature Review and Interim Report Write up" resolved="yes"/>
+    <change idref="t22" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+}" resolved="yes"/>
+    <change idref="t22" attribute="internalEffortDone" type="real" from="0" to="288000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Alex Charles" date="2016-12-09T12:49:34.455Z" timestamp="2016-12-09T12:49:34.455Z">
+    <change idref="t1" attribute="styleDict" type="dict" from="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 6;
+}" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.4&quot;;
+        r = &quot;0.4&quot;;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 6;
+    &quot;gantt-fill-color&quot; =     {
+        b = 1;
+        g = &quot;0.4&quot;;
+        r = &quot;0.4&quot;;
+    };
+}" resolved="yes"/>
+    <change idref="t5" attribute="title" type="string" from="Work Package 5" to="Work Package 5 - Evaluation of Simulation " resolved="yes"/>
+    <change idref="t6" attribute="styleDict" type="dict" from="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.25098&quot;;
+        r = &quot;0.501961&quot;;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 6;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.676169&quot;;
+        g = &quot;0.341736&quot;;
+        r = &quot;0.192139&quot;;
+        space = srgb;
+    };
+}" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.735146&quot;;
+        g = &quot;0.427993&quot;;
+        r = &quot;0.249504&quot;;
+        space = srgb;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 6;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.676169&quot;;
+        g = &quot;0.341736&quot;;
+        r = &quot;0.192139&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t22" attribute="styleDict" type="dict" from="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+}" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = 1;
+        g = &quot;0.67594&quot;;
+        r = &quot;0.604155&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t28" attribute="title" type="string" from="Investigation of different peak demand sensing tehcnologies" to="Investigation of peak demand sensing" resolved="yes"/>
+    <change idref="t39" attribute="title" type="string" from="Create simulation of the University’s Energy Usage and Costs" to="Create simulation of University’s Energy Usage and Costs" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Alex Charles" date="2016-12-09T13:28:32.683Z" timestamp="2016-12-09T13:28:32.683Z">
+    <change idref="t1" attribute="title" type="string" from="Work Package 1 -Literature Review " to="Work Package 1 - Literature Review " resolved="yes"/>
+    <change idref="t2" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-20T08:30:00.000Z" to="2017-01-28T08:30:00.000Z" resolved="yes"/>
+    <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" from="2017-02-01T12:00:00.000Z" to="2017-02-09T12:00:00.000Z" resolved="yes"/>
+    <change idref="t17" from="t7" from-position="4" resolved="yes">
+      <change idref="t17" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t17" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t17" attribute="noEarlierThanConstraintDate" type="date" to="2017-05-08T07:00:00.000Z"/>
+      <change idref="t17" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t17" attribute="styleDict" type="dict" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 0;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.4&quot;;
+        g = &quot;0.4&quot;;
+        r = 1;
+    };
+}"/>
+      <change idref="t17" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t17" attribute="title" type="string" to="Viva Voce Examination"/>
+    </change>
+    <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" from="2016-12-12T17:00:00.000Z" to="2016-12-20T17:00:00.000Z" resolved="yes"/>
+    <change idref="t15" attribute="noEarlierThanConstraintDate" type="date" from="2017-03-20T08:00:00.000Z" to="2017-03-28T07:00:00.000Z" resolved="yes"/>
+    <change idref="t16" attribute="noEarlierThanConstraintDate" type="date" from="2017-03-31T07:00:00.000Z" to="2017-04-08T07:00:00.000Z" resolved="yes"/>
+    <change idref="t18" attribute="noEarlierThanConstraintDate" type="date" from="2017-03-10T08:00:00.000Z" to="2017-03-18T08:00:00.000Z" resolved="yes"/>
+    <change idref="t19" attribute="noEarlierThanConstraintDate" type="date" from="2017-04-03T07:00:00.000Z" to="2017-04-11T07:00:00.000Z" resolved="yes"/>
+    <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" from="2016-12-19T08:00:00.000Z" to="2016-12-27T08:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="effort" type="real" from="288000" to="266400" resolved="yes"/>
+    <change idref="t22" attribute="internalEffortDone" type="real" from="288000" to="266400" resolved="yes"/>
+    <change idref="t36" attribute="effort" type="real" from="3600" to="28800" resolved="yes"/>
+    <change idref="t37" attribute="startLockedDate" type="date" from="2017-02-07T13:00:00.000Z" to="2017-02-15T13:00:00.000Z" resolved="yes"/>
+    <change idref="t40" attribute="endLockedDate" type="date" from="2017-02-21T18:00:00.000Z" to="2017-03-01T18:00:00.000Z" resolved="yes"/>
+    <change idref="t42" attribute="startLockedDate" type="date" from="2017-02-27T18:00:00.000Z" to="2017-03-07T18:00:00.000Z" resolved="yes"/>
+    <change idref="t45" attribute="startLockedDate" type="date" from="2017-03-08T11:00:00.000Z" to="2017-03-16T11:00:00.000Z" resolved="yes"/>
+    <change idref="t47" attribute="endLockedDate" type="date" from="2017-03-30T18:30:00.000Z" to="2017-04-07T18:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Alex Charles" date="2016-12-09T13:31:21.654Z" timestamp="2016-12-09T13:31:21.654Z">
+    <change idref="t41" attribute="styleDict" type="dict" from="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.574993&quot;;
+        g = &quot;0.0960863&quot;;
+        r = &quot;0.00485985&quot;;
+        space = srgb;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.456105&quot;;
+        g = &quot;0.126435&quot;;
+        r = &quot;0.824256&quot;;
+        space = srgb;
+    };
+}" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.4&quot;;
+        g = &quot;0.4&quot;;
+        r = 1;
+    };
+    &quot;font-italic&quot; = 1;
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.456105&quot;;
+        g = &quot;0.126435&quot;;
+        r = &quot;0.824256&quot;;
+        space = srgb;
+    };
+}"/>
+    <change idref="t42" attribute="styleDict" type="dict" from="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.574993&quot;;
+        g = &quot;0.0960863&quot;;
+        r = &quot;0.00485985&quot;;
+        space = srgb;
+    };
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.456105&quot;;
+        g = &quot;0.126435&quot;;
+        r = &quot;0.824256&quot;;
+        space = srgb;
+    };
+}" to="{
+    &quot;font-family&quot; = Avenir;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.4&quot;;
+        g = &quot;0.4&quot;;
+        r = 1;
+    };
+    &quot;font-italic&quot; = 1;
+    &quot;font-size&quot; = 10;
+    &quot;font-weight&quot; = 3;
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.456105&quot;;
+        g = &quot;0.126435&quot;;
+        r = &quot;0.824256&quot;;
+        space = srgb;
+    };
+}"/>
+  </task-change-set>
+  <resource-change-set user="Alex Charles" date="2016-12-09T11:43:02.652Z" timestamp="2016-12-09T11:43:02.652Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to=";30600,52200,55800,70200;30600,52200,55800,70200;30600,52200,55800,70200;30600,52200,55800,70200;30600,52200,55800,70200;" resolved="yes"/>
+    <change idref="r1" attribute="name" type="string" from="Resource 1" to="Alex Charles" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="Alex Charles" date="2016-12-09T11:43:02.652Z" timestamp="2016-12-09T11:43:02.652Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2016-11-28T08:00:00.000Z" resolved="yes"/>
+    <change idref="m1" attribute="projectTitle" type="string" to="Individual Design Project 4" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Alex Charles" date="2016-12-09T12:49:34.455Z" timestamp="2016-12-09T12:49:34.455Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{
+    info =     (
+    );
+}" to="{
+    info =     (
+                {
+            name = &quot;Baseline 09/12/2016&quot;;
+            uuid = &quot;lYfhXB9-Eld&quot;;
+        }
+    );
+}" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Alex Charles" date="2016-12-09T13:28:32.680Z" timestamp="2016-12-09T13:28:32.680Z">
+    <change idref="m1" attribute="scheduleGranularity" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="m1" attribute="fixedDate" type="date" from="2016-11-28T08:00:00.000Z" to="2016-12-01T12:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
