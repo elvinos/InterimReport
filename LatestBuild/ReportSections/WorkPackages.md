@@ -52,7 +52,7 @@ This section describes the breakdown of the different work packages required to 
 
 \begin{enumerate}[label={6.\arabic*}]
 \item Identify all findings from work packages, condensing findings to provide recommendations and identify areas for future work
-\item Identify transition points for the projects integration into the $5^th$ year group project.
+\item Identify transition points for the projects integration into the $5^{th}$ year group project.
 \item Final report write up
 \item Group project poster creation
 \end{enumerate}
